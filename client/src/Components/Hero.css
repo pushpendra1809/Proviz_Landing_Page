@@ -1,0 +1,39 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  color: #fff;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.apply-button:hover {
+  background-color: #2980b9;
+}
+.apply-button{
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+
